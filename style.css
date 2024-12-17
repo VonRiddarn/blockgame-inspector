@@ -19,12 +19,14 @@ body {
 	flex-direction: column;
 	margin: 0 auto;
 	width: 50vw;
+	align-items: center;
 }
 
 #title-container {
-  position: relative;  /* This makes sure child elements can be positioned relative to it */
-  width: 100%;         /* Adjust to fit the container's width */
-  height: auto;        /* Let it grow as needed but controlled by content */
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-bottom: 3rem;
 }
 
 #title-container h1 {
