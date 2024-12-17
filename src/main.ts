@@ -21,12 +21,15 @@ inspectButtonEl.addEventListener('click', async () => {
 
 const buildImage = (userInfo:UserInfo) => {
 
+	
 	if(!userInfo.data.player)
 	{
 		uuidEl.innerHTML = "Player does not exist!";
+		showcaseEl.setAttribute("src", ``);
+		aliasEl.innerHTML = nameInputEl.value;
 		return;
 	}
-
+		
 	let url = "https://crafatar.com/renders/body/";
 	let arg:string = clothesEl.checked ? "overlay" : ""; // The api does not accept a false argument for some reason
 	showcaseEl.setAttribute("src", `${url}${userInfo.data.player.raw_id}?${arg}&scale=10&size=512`);
