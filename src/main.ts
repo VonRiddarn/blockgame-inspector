@@ -21,7 +21,6 @@ inspectButtonEl.addEventListener('click', async () => {
 
 const buildImage = (userInfo:UserInfo) => {
 
-	
 	if(!userInfo.data.player)
 	{
 		uuidEl.innerHTML = "Player does not exist!";
