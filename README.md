@@ -1,3 +1,7 @@
+# Project on hold
+This was just going to be a quick and dirty implementation, but I see now that I will be needing to request keys and or aquire a proxy.<br />
+I really can't be bothered at this time. 
+
 # blockgame-inspector
 A school project where I utilize APIs to show player and block information about the game Minecraft
 
