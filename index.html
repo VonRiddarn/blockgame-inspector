@@ -17,24 +17,15 @@
 		<label for="input-playername">Playername</label>
 		<input type="text" id="input-playername">
 		<button type="button" id="input-inspect">Inspect</button>
+		<br/> <!-- Yeah, yeah, I'm the devil for this lazy hack-->
+		<label for="clothes">Clothes</label>
+		<input type="checkbox" id="clothes">
 	</form>
 
 	<section id="player-container">
 		<h2>VonRiddarn</h2>
+		<img id="showcase" src="https://crafatar.com/renders/body/24a2986e656c4db196d5e105c716f8c7?overlay&scale=10&size=512" alt="VonRiddarn's avatar">
 		<h3>24a2986e656c4db196d5e105c716f8c7</h3>
-		<section id="inspector">
-			<img src="https://crafatar.com/renders/body/24a2986e656c4db196d5e105c716f8c7?overlay&scale=5&size=512" alt="VonRiddarn's avatar">
-			<span id="inspector-tabs">
-				<button><img src="public/icons/face.svg" alt="Face"></button>
-				<button><img src="public/icons/body.svg" alt="Body"></button>
-				<span>
-					<button id="clothes-button">
-						<img src="public/icons/forbidden.svg" alt="Clothing">
-						<img src="public/icons/shirt.svg" alt="Clothing">
-					</button>
-				</span>
-			</span>
-		</section>
 	</section>
 
     <script type="module" src="/src/main.ts"></script>
