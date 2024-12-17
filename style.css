@@ -51,12 +51,12 @@ body {
 	text-shadow: 2px 2px black;
 	text-align: right;
 
-	animation-name: test;
+	animation-name: size-bounce;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
 }
 
-@keyframes test {
+@keyframes size-bounce {
 	0% {
 		font-size: 2rem;
 		right: +100px;
