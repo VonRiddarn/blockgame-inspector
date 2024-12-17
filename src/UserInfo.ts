@@ -1,7 +1,10 @@
 type UserInfo = {
-	name: string;
-	id: string;
-	errorMessage?:string;
+	data: {
+		player?: {
+			username: string,
+			raw_id: string,
+		}
+	}
 };
 
 export default UserInfo;
