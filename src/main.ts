@@ -33,4 +33,5 @@ const buildImage = (userInfo:UserInfo) => {
 	let arg:string = clothesEl.checked ? "overlay" : ""; // The api does not accept a false argument for some reason
 	showcaseEl.setAttribute("src", `${url}${userInfo.data.player.raw_id}?${arg}&scale=10&size=512`);
 	aliasEl.innerHTML = userInfo.data.player.username;
+	uuidEl.innerHTML = userInfo.data.player.raw_id;
 };
