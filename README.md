@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="/readme_img.png" alt="Project Image" />
+</p>
+
 # blockgame-inspector
 A school project where I utilize APIs to show player information from the game Minecraft. <br />
 This project is badly programmed and should not be used as a reference for clean code. <br />
