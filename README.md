@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="/readme_img.png" alt="Project Image" />
+	<img src="/repo_img.png" alt="Project Image" />
 </p>
 
 # blockgame-inspector
